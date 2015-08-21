@@ -7,7 +7,8 @@ var Router = Ember.Router.extend({
 
 Router.map(function() {
 	this.route('sample');
-	this.route('action-demo')
+	this.route('action-demo');
+	this.route('helper-demo');
 });
 
 export default Router;

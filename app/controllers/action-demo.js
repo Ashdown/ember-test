@@ -3,6 +3,7 @@ export default Ember.Controller.extend({
 	body: 'This is the body',
 
 	isExpanded: true,
+	linkClicked: false,
 
 	actions: {
 		expand() {
@@ -10,6 +11,10 @@ export default Ember.Controller.extend({
 		},
 		contract() {
 			this.set('isExpanded', false);
+		},
+		googleLink(){
+			this.set('linkClicked', true)
 		}
+
 	}
 })

@@ -1,0 +1,14 @@
+<h2>Helper demo page</h2>
+<h3>Text Field Helper</h3>
+{{#if updating}}
+	<p>Updating...</p>
+{{/if}}	
+<div>
+	{{input value="http://www.google.com" key-press="updatingTextField"}}
+</div>	
+<div>
+	{{input type="checkbox" name="isCheckboxChecked" checked="isCheckboxChecked"}}
+</div>
+<div>
+	{{textarea value=name cols="80" rows="6"}}
+</div>	

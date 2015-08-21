@@ -7,4 +7,11 @@
 	<button {{action 'contract'}}>Contract</button>
 {{else}}
 	<button {{action 'expand'}}>Expand</button>
-{{/if}}			
+{{/if}}
+
+<div>
+	<a {{action 'googleLink'}} href="http://www.google.com">Link to google</a>			
+	{{#if linkClicked}}
+		<p>Link has been clicked</p>
+	{{/if}}	
+</div>
