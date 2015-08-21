@@ -1,0 +1,10 @@
+<div>
+	{{intro}}
+</div>
+
+{{#if isExpanded}}
+	<div>{{body}}</div>
+	<button {{action 'contract'}}>Contract</button>
+{{else}}
+	<button {{action 'expand'}}>Expand</button>
+{{/if}}			
