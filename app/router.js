@@ -12,6 +12,7 @@ Router.map(function() {
 	this.route('helper-demo');
 	this.route('custom-helper-demo');
 	this.route('photos');
+	this.route('component-demo');
 });
 
 export default Router;
