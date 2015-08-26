@@ -9,6 +9,7 @@ Router.map(function() {
 	this.route('sample');
 	this.route('action-demo');
 	this.route('helper-demo');
+	this.route('custom-helper-demo');
 });
 
 export default Router;
