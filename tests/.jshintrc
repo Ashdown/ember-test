@@ -22,7 +22,9 @@
     "currentURL",
     "currentPath",
     "currentRouteName",
-    "Ember"
+    "Ember",
+    "moduleFor",
+    "test"
   ],
   "node": false,
   "browser": false,
