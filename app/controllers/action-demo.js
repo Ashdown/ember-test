@@ -13,8 +13,8 @@ export default Ember.Controller.extend({
 			this.set('isExpanded', false);
 		},
 		googleLink(){
-			this.set('linkClicked', true)
+			this.set('linkClicked', true);
 		}
 
 	}
-})
+});

@@ -8,4 +8,4 @@ export default Ember.route.extend({
 			url: "http://www.google.com/buchanan"
 		}];
 	}
-})
+});
