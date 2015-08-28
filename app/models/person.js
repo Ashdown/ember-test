@@ -1,6 +1,10 @@
-import Model, { attr } from "ember-data/model";
+import DS from 'ember-data';
 
-export default Model.extend({
-	firstName: attr('string'),
-	birthday: attr('date')
+export default DS.Model.extend({
+	firstName: DS.attr('string'),
+	lastName: DS.attr('string'),
+	birthday: DS.attr('date'),
+	fullName: Ember.computed('firstName', 'lastName', function() {
+		return this.get('firstName') + ' ' + this.get('lastName');
+	})
 });
